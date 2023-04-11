@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SudaisBlog</title>
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    
+    <header class="header" id="header">
+        <nav class="navbar container">
+            <a href="index.html">
+                <h2 class="logo">SudaisBlog</h2>
+            </a>
+
+            <div class="menu" id="menu">
+                <ul class="list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Categories</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Reviews</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">News</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Membership</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Contact</a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                        <a href="#" class="list-link">Sign In</a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                        <a href="#" class="list-link">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="list list-right">
+                <button class="btn place-items-center" id="theme-toggle-btn">
+                    <i class="ri-sun-line sun-icon"></i>
+                    <i class="ri-moon-line moon-icon"></i>
+
+                </button>
+
+                <button class="btn place-items-center" id="search-icon">
+                    <i class="ri-search-line"></i>
+                </button>
+
+                <button class="btn place-items-center screen-lg-hidden menu-toggle-icon" id="menu-toggle-icon">
+                    <i class="ri-menu-3-line open-menu-icon"></i>
+                    <i class="ri-close-line close-menu-icon"></i>
+
+                </button>
+
+                <a href="#" class="list-link screen-sm-hidden">Sign In</a>
+                <a href="#" class="list-link screen-sm-hidden btn sign-up btn fancy-border">
+                    <span>Sign Up</span>
+                </a>
+
+
+            </div>
+        </nav>
+        
+
+    </header>
+
+    <div class="search-form-container container" id="search-form-container">
+
+        <div class="form-container-inner">
+
+            <form action="" class="form">
+                <input type="text" class="form-input" placeholder="What are you looking for?">
+                <button class="btn form-btn" type="submit">
+                    <i class="ri-search-line"></i>
+                </button>
+            </form>
+            <span class="form-note">Or press ESC to close</span>
+        </div>
+        <button class="btn form-close-btn place-items-center" id="form-close-btn">
+            <i class="ri-close-line"></i>
+        </button>
+    </div>
+
+    <section class="featured-articles section-header-offset">
+        <div class="featured-articles-container container d-grid">
+            <div class="featured-content d-grid">
+                <div class="headline-banner">
+                    <h3 class="headline fancy-border">
+                        <span class="place-items-center">Breaking News</span>
+                    </h3>
+                    <span class="headline-description">2023 Elections: Ogun PDP Assembly Candidates File Petitions At Tribunal</span>
+                </div>
+
+                <a href="post.html" class="article featured-article featured-article-1">
+                    <img src="images/Football/football-13.jpeg" alt="" class="article-image">
+                    <span class="article-category">news</span>
+
+                    <div class="article-data-container">
+                        <div class="article-data">
+                            <span>April 10th 2023</span>
+                            <span class="article-data-spacer "></span>
+                            <span></span>
+                        </div>
+                        <h3 class="title article-title"> Catalan duel 💛❤️:
+
+                            Barçelona to play Girona at Spotify Camp Nou.</h3>
+                    </div>
+                </a>
+                <a href="post.html" class="article featured-article featured-article-1">
+                    <img src="images/News/news-2.png" alt="" class="article-image">
+                    <span class="article-category">news</span>
+
+                    <div class="article-data-container">
+                        <div class="article-data">
+                            <span>April 10th 2023</span>
+                            <span class="article-data-spacer "></span>
+                            <span></span>
+                        </div>
+                        <h3 class="title article-title"> Abducted Ex-Nasarawa Deputy Governor Gye-Wado Released</h3>
+                    </div>
+                </a>
+                <a href="post.html" class="article featured-article featured-article-1">
+                    <img src="images/News/news-3.png" alt="" class="article-image">
+                    <span class="article-category">news</span>
+
+                    <div class="article-data-container">
+                        <div class="article-data">
+                            <span>April 10th 2023</span>
+                            <span class="article-data-spacer "></span>
+                            <span></span>
+                        </div>
+                        <h3 class="title article-title"> Prophet Arayomi Leaves Nigeria With Family After Ordeal With DSS</h3>
+                    </div>
+                </a>
+                <a href="post.html" class="article featured-article featured-article-1">
+                    <img src="images/Football/football-11.png" alt="" class="article-image">
+                    <span class="article-category">football</span>
+
+                    <div class="article-data-container">
+                        <div class="article-data">
+                            <span>April 4th 2023</span>
+                            <span class="article-data-spacer "></span>
+                            <span></span>
+                        </div>
+                        <h3 class="title article-title"> Barcelona coach Xavi Hernandez believes if Real Madrid have given up on La Liga, it is because of his side’s superb season, he told a news conference Sunday.</h3>
+                    </div>
+                </a>
+                <a href="post.html" class="article featured-article featured-article-1">
+                    <img src="images/Football/football-12.jpg" alt="" class="article-image">
+                    <span class="article-category">football</span>
+
+                    <div class="article-data-container">
+                        <div class="article-data">
+                            <span>April 10th 2023</span>
+                            <span class="article-data-spacer "></span>
+                            <span></span>
+                        </div>
+                        <h3 class="title article-title"> Harry Maguire believes Manchester United can thrive without Marcus Rashford.</h3>
+                    </div>
+                </a>
+
+
+                <a href="post.html" class="article featured-article featured-article-1">
+                    <img src="images/Programming/programming-1.jpg" alt="" class="article-image">
+                    <span class="article-category">Programming</span>
+
+                    <div class="article-data-container">
+                        <div class="article-data">
+                            <span>April 4th 2023</span>
+                            <span class="article-data-spacer "></span>
+                            <span></span>
+                        </div>
+                        <h3 class="title article-title">Are you interested in learning these career paths and acquiring certification?
+
+                            •Cloud Computing (AWS)
+                            •Project Management
+                            •Data Analysis 
+                            •Technology & Cyber Security 
+                            •Product Management
+                            •Digital Marketing
+                            •Software Engineering 👨🏾‍💻
+                            
+                            For free? </h3>
+                    </div>
+                </a>
+                <a href="post.html" class="article featured-article featured-article-1">
+                    <img src="images/Football/football-1.jpg" alt="" class="article-image">
+                    <span class="article-category">Football</span>
+
+                    <div class="article-data-container">
+                        <div class="article-data">
+                            <span>April 4th 2023</span>
+                            <span class="article-data-spacer "></span>
+                            <span></span>
+                        </div>
+                        <h3 class="title article-title">Stamford Bridge under the lights, come on Chelsea! 💪  </h3>
+                    </div>
+                </a>   
+            </div>
+                
+            <div class="sidebar d-grid">
+
+                <h3 class="title featured-content-title">Trending News</h3>
+                <a href="#" class="trending-news-box">
+                    <div class="trending-news-image-box">
+                        <span class="trending-number place-items-center" >01</span>
+                            <img src="images/News/politics-5.jpg" alt="" class="article-image">
+                        
+                        <div class="trending-news-data"></div>
+                    </div>
+
+                    <div class="trending-news-box">
+                        <div class="article-data">
+                            <span>April 8th 2023</span>
+                            <span class="article-data-spacer "></span>
+                            <span></span>
+                        </div>
+
+                        <h3 class="title article-title">Benue Killings: Attackers Must Be Found And Dealt With, Says Buhari</h3>
+                    </div>
+
+                </a>
+                <a href="#" class="trending-news-box">
+                    <div class="trending-news-image-box">
+                        <span class="trending-number place-items-center" >02</span>
+                            <img src="images/News/politics-6.jpg" alt="" class="article-image">
+                        
+                        <div class="trending-news-data"></div>
+                    </div>
+
+                    <div class="trending-news-box">
+                        <div class="article-data">
+                            <span>April 8th 2023</span>
+                            <span class="article-data-spacer "></span>
+                            <span></span>
+                        </div>
+
+                        <h3 class="title article-title">Biden To ‘Fight’ To Overturn Abortion Pill Ruling</h3>
+                    </div>
+
+                </a>
+                <a href="#" class="trending-news-box">
+                    <div class="trending-news-image-box">
+                        <span class="trending-number place-items-center" >03</span>
+                            <img src="images/News/politics-3.png" alt="" class="article-image">
+                        
+                        <div class="trending-news-data"></div>
+                    </div>
+
+                    <div class="trending-news-box">
+                        <div class="article-data">
+                            <span>April 5th 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span></span>
+                        </div>
+
+                        <h3 class="title article-title">Insecurity: Ooni Charges Govt On Constitutional Roles For Traditional Rulers</h3>
+                    </div>
+
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="quick-read section">
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Quick read">Quick read</h2>
+
+            <div class="swiper">
+
+                
+                <div class="swiper-wrapper">
+                    <a href="" class="article swiper-slide">
+
+                        <img src="images/News/politics-7.png" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>April 8th 2023</span>
+                                <span class="article-data-spacer "></span>
+                                <span></span>
+                            </div>
+                            <h3 class="title article-title">President Muhammadu Buhari says the 2023 elections have demystified money politics which means Nigerian voters won’t be underrated anymore.</h3>
+                        </div>
+                    </a>
+
+                    <a href="" class="article swiper-slide">
+
+                        <img src="images/Football/football-5.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>April 8th 2023</span>
+                                <span class="article-data-spacer "></span>
+                                <span></span>
+                            </div>
+                            <h3 class="title article-title">Rashford Injury Sours Routine Man Utd Win Over Everton</h3>
+                        </div>
+                    </a>
+
+                    <a href="" class="article swiper-slide">
+
+                        <img src="images/Football/football-6.png" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>April 8th 2023</span>
+                                <span class="article-data-spacer "></span>
+                                <span></span>
+                            </div>
+                            <h3 class="title article-title">Asisat Oshoala returned to the Super Falcons side in style, scoring as Nigeria beat Haiti 2-1 in a World Cup warm-up game on Friday.</h3>
+                        </div>
+                    </a>
+                </div>
+                
+
+                <div class="swiper-button-prev swiper-controls"></div>
+                <div class="swiper-button-next swiper-controls"></div>
+
+                <div class="swiper-pagination"></div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="older-posts section">
+
+        <div class="container">
+            <h3 class="title section-title" data-name="Older posts">Older posts</h3>
+
+            <div class="older-posts-grid-wrapper d-grid">
+
+                <a href="" class="article d-grid">
+
+                    <div class="older-posts-article-image-wrapper">
+
+                        <img src="images/Football/football-4.png" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+                        <div class="article-data">
+                            <span>April 4th 2023</span>
+                            <span class="article-data-spacer "></span>
+                            <span></span>
+                        </div>
+                        <h3 class="title article-title"> Arteta Targets End To Arsenal’s Anfield Hoodoo</h3>
+
+                        <p class="article-description">Arsenal manager Mikel Arteta 
+                            said he was undeterred by the club’s poor record at Anfield, 
+                            targeting a win against Liverpool on Sunday that 
+                            would keep them on course to win 
+                            the Premier League title.</p>
+                    </div>
+                </a>
+
+                <a href="" class="article d-grid">
+
+                    <div class="older-posts-article-image-wrapper">
+
+                        <img src="images/News/news-5.png" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+                        <div class="article-data">
+                            <span>April 4th 2023</span>
+                            <span class="article-data-spacer "></span>
+                            <span></span>
+                        </div>
+                        <h3 class="title article-title"> FG Declares Friday, Monday Public Holiday For Easter Celebrations</h3>
+
+                        <p class="article-description">Arsenal manager Mikel Arteta 
+                            said he was undeterred by the club’s poor record at Anfield, 
+                            targeting a win against Liverpool on Sunday that 
+                            would keep them on course to win 
+                            the Premier League title.</p>
+                    </div>
+                </a>
+
+                <a href="" class="article d-grid">
+
+                    <div class="older-posts-article-image-wrapper">
+
+                        <img src="images/Football/football-6.png" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+                        <div class="article-data">
+                            <span>April 4th 2023</span>
+                            <span class="article-data-spacer "></span>
+                            <span></span>
+                        </div>
+                        <h3 class="title article-title"> Oshoala Sparkles As Nigeria Beat Haiti In Pre-World Cup Tie</h3>
+
+                        <p class="article-description">The Barcelona Femeni star has 
+                            been absent from the team since the Africa 
+                            Women's Cup of Nations (AWCON) in July 2022 but made an instant 
+                            impact on her return to Coach Randy Waldrum's side.</p>
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="see-more-container">
+                <a href="#" class="btn see-more-btn place-items-center">
+                    See more <i class="ri-arrow-right-s-line"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="popular-tags section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Popular tags">Popular tags</h2>
+
+            <div class="popular-tags-container d-grid">
+
+                <a href="#" class="article">
+
+                    <span class="tag-name">#BarcaGirona</span>
+                    <img src="images/Football/football-8.jpeg" alt="" class="article-image">
+
+                </a>
+                <a href="#" class="article">
+
+                    <span class="tag-name">#Lampard</span>
+                    <img src="images/Football/football-9.jpeg" alt="" class="article-image">
+
+                </a>
+                <a href="#" class="article">
+
+                    <span class="tag-name">#Wizkid</span>
+                    <img src="images/News/news-6.jpeg" alt="" class="article-image">
+
+                </a>
+                <a href="#" class="article">
+
+                    <span class="tag-name">#Van Dijk</span>
+                    <img src="images/Football/football-10.jpeg" alt="" class="article-image">
+
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Newsletter">Newsletter</h2>
+
+            <div class="form-container-inner">
+
+                <h6 class="title newsletter-title">Subscribe to SudaisBlog</h6>
+                <p class="newsletter-description"></p>
+
+                <form action="" class="form">
+                    <input type="text" class="form-input" placeholder="Enter your email address">
+                    <button class="btn form-btn" type="submit">
+                    <i class="ri-mail-send-line"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer section">
+
+        <div class="footer-container container d-grid">
+
+            <div class="company-data">
+                <a href="">
+                <h2 class="logo">SudaisBlog</h2>
+                </a>
+                <p class="company-description">
+                    This a blog where you can get all the information on Politics, Programming and Football. In it is embedded trending news and information
+                </p>
+
+                <ul class="list social-media">
+                    <li class="list-item">
+                        <a href="#" class="list-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="#" class="list-link">
+                            <i class="ri-twitter-line"></i>
+                        </a>
+                        <a href="#" class="list-link">
+                            <i class="ri-facebook-line"></i>
+                        </a>
+                        <a href="#" class="list-link">
+                            <i class="ri-whatsapp-line"></i>
+                        </a>
+                    </li>
+                </ul>
+
+                <span class="copyright-notice">&copy; 2023 SudaisBlog, All rights reserved</span>
+            </div>
+                
+            <div>
+                <h6 class="title footer-title">Categories</h6>
+
+                <ul class="list footer-list">
+
+                    <li class="list-item">
+                        <a href="" class="list-link">Sample Item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="" class="list-link">Sample Item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="" class="list-link">Sample Item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="" class="list-link">Sample Item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="" class="list-link">Sample Item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="" class="list-link">Sample Item</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Useful links</h6>
+
+                <ul class="list footer-list">
+
+                    <li class="list-item">
+                        <a href="" class="list-link">Sample Item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="" class="list-link">Sample Item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="" class="list-link">Sample Item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="" class="list-link">Sample Item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="" class="list-link">Sample Item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="" class="list-link">Sample Item</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Company</h6>
+
+                <ul class="list footer-list">
+
+                    <li class="list-item">
+                        <a href="" class="list-link">Sample Item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="" class="list-link">Sample Item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="" class="list-link">Sample Item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="" class="list-link">Sample Item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="" class="list-link">Sample Item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="" class="list-link">Sample Item</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    
+    <script src="swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
